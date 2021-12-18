@@ -1,0 +1,9 @@
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+ul .special {
+    text-decoration: underline;
+}
