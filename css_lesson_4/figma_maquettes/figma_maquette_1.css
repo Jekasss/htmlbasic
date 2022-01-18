@@ -1,0 +1,424 @@
+.thrive {
+    display: grid;
+    grid-template: "logo navigation"
+                   "content content"
+                   "info info";
+    grid-template-columns: 300px 700px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+.head_title {
+    margin-top: 25px;
+    grid-area: logo;
+    height: 60px;
+    align-self: center;
+    font-size: 15px;
+    color: #62D0DF;
+    padding-left: 118px;
+    font-weight: bold;
+}
+
+.navigation {
+    margin-top: 25px;
+    display: flex;
+    grid-area: navigation;
+    height: max-content;
+}
+
+.about_us {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    width: 250px;
+    height: 20px;
+    color: #22356F;
+    text-decoration: none;
+}
+
+.contact_us_1 {
+    display: flex;
+    margin-left: 200px;
+    border-radius: 50px;
+    background-color: #62D0DF;
+    color: white;
+    width: 120px;
+    height: 35px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.thrivetalk {
+    grid-area: content;
+    height: max-content;
+}
+
+.group_1 {
+    display: block;
+    padding-left: 118px;
+    padding-top: 80px;
+    width: 370px;
+}
+
+.head_title_2 {
+    color: #62D0DF;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.title {
+    padding-top: 20px;
+    color: #22356F;
+    font-size: 32px;
+    font-weight: bold;
+    height: 150px;
+}
+
+.life_areas {
+    font-size: 17px;
+    color: #22356F;
+    height: 170px;
+}
+
+.questions {
+    display: flex;
+    font-weight: bold;
+}
+
+.question_1 {
+    display: flex;
+    width: 110px;
+    height: 40px;
+    background-color: #F9B640;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;    
+}
+
+.question_2 {
+    display: flex;
+    margin-left: 25px;
+    width: 110px;
+    height: 40px;
+    color: #FAB63E;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+
+}
+
+.group_2 {
+    display: flex;
+    background-color: #62D0DF;
+    color: white;
+    margin-top: 50px;
+}
+
+.why_thrive {
+    margin-top: 75px;
+    margin-left: 111px;
+    margin-right: 111px;
+    font-size: 12px;
+}
+
+.why_thrive_title {
+    font-size: 20px;
+}
+
+.bold {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.image_chris_camp {
+    height: 420px;
+    float: right;
+}
+
+.group_3 {
+    display: flex;
+    color: #22356F;
+    
+}
+
+.about_us_title {
+    width: 20%;
+    height: 170px;
+    padding-top: 100px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.about_us_content {
+    width: 70%;
+    height: 170px;
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 270px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.group_4_title {
+    color: #22356f7c;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.group_4 {
+    display: flex;    
+}
+
+.overline {
+    margin-top: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-top: 1px solid white;
+    padding-top: 3%;
+}
+
+.overline:before {
+    content: '\2022';
+    color: #E9B730;
+    font-size: 33px;
+    margin-right: 10px;
+}
+.help_you {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.help_one {
+    background-color: #FFE2DE;
+    width: 250px;
+    height: 250px;
+}
+
+.help_two {
+    background-color: #C4E769;
+    width: 250px;
+    height: 250px;
+}
+
+.help_three {
+    background-color: #62D0DF;
+    width: 250px;
+    height: 250px;
+}
+
+.help_four {
+    background-color: #0052C1;
+    width: 250px;
+    height: 250px;
+}
+
+.group_5 {
+    display: grid;
+    grid-template: "Physical Mental Nutrition"
+                   "Gymnastics Crossfit Aerobics";                   
+    grid-template-columns: 333px 333px 333px;
+    margin-top: 80px;
+}
+
+.help_five {
+    grid-area: Physical;
+    background-color: #22356F;
+    height: 333px;
+}
+
+.help_six {
+    grid-area: Mental;
+    background-color: #0052C1;
+    height: 333px;
+}
+
+.help_seven {
+    grid-area: Nutrition;
+    background-color: #bfcde0;
+    background-image: url(joanna-kosinska-340748.png);
+    background-size: contain;
+    height: 333px;
+}
+
+.help_eight {
+    grid-area: Gymnastics;
+    background-color: #62D0DF;
+    height: 333px;
+}
+
+.help_nine {
+    grid-area: Crossfit;
+    background-color: #DEE1FF;
+    height: 333px;
+}
+
+.help_ten {
+    grid-area: Aerobics;
+    background-color: #8F00FF;
+    height: 333px;
+}
+
+.group_6 {
+    display: grid;
+    grid-template-columns: 333px 333px 333px;
+    grid-template-rows: 168px;
+    color: #22356F;
+    margin-bottom: 70px;    
+}
+
+.nutritional_facts {
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.fact_title {
+    font-size: 18px;
+}
+
+.useful_fact {
+    color: #22356f69;
+}
+
+.group_7 {
+    color: #22356F;
+    height: 550px;
+}
+
+.image_linkedin {
+    width: 330px;
+    float: left;
+    padding-right: 80px;
+}
+
+.helpful_info {
+    padding-top: 75px;
+    font-size: 11px;
+}
+
+.interesting_fact{
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 90px;
+    padding-top: 150px;
+}
+
+.highlight {
+    color: #62D0DF;
+}
+
+.get_help_now {
+    padding-top: 70px;
+        
+}
+
+.get_help_now_link {
+    color: #FAB63E;    
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.group_8 {
+    background-color: #22356F;
+    color: white;
+    height: 550px;
+}
+
+.image_charles_etoroma {
+    width: 330px;
+    float: right;
+}
+
+.contact_us_2 {
+    padding-top: 70px;
+    padding-left: 130px;
+}
+
+.contact_us_link {
+    font-size: 11px;    
+    color: white;
+    text-decoration: none;
+}
+
+.ready_Set_Smile {
+    padding-left: 130px;
+    padding-top: 150px;
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.online_assessment {
+    padding-top: 40px;
+    padding-left: 130px;
+    padding-right: 490px;
+    font-size: 22px;
+}
+
+.get_help_now_2 {    
+    padding-left: 130px;
+    padding-top: 50px;
+        
+}
+
+.get_help_now_2_link {
+    text-decoration: none;
+    color: #62D0DF;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.information {
+    grid-area: info;
+    height: max-content;
+}
+
+.group_9 {
+    display: flex;
+}
+
+.image_autumn_goodman {
+    width: 400px;
+    float: left;
+}
+
+.we_are{
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.info_title {
+    color: #22356F;
+}
+
+.info_content {
+    padding-top: 35px;
+    color: #22356f71;
+}
+
+.mail {
+    color: #34bfd8;
+}
+
+.copyright {
+    background-color: #62D0DF;
+    height: 30px;
+    color: white;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 110px;
+
+}
+
+.copyright::before {
+    content: '\00A9';
+    margin-right: 10px;
+}
