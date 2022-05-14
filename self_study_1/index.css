@@ -1,0 +1,12 @@
+.Denis_Novik {
+    display: grid;
+    grid-template:  "navigation"
+                    "intro"
+                    "content"
+                    "info";
+}
+
+.page_navi {
+    display: flex;
+    grid-area: navigation;
+}
