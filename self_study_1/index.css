@@ -2,11 +2,69 @@
     display: grid;
     grid-template:  "navigation"
                     "intro"
-                    "content"
+                    "my_work"
                     "info";
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    grid-template-columns: 1000px;
+    margin: auto;
+    font-size: 15px;
+    max-width: 1000px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+	color: red;
+}
+a:visited {
+	color: red;
 }
 
 .page_navi {
     display: flex;
     grid-area: navigation;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid gray;
+}
+
+.link_home {
+
+}
+
+.link_about_me {
+
+}
+
+.link_skils {
+
+}
+
+.link_portfolio {
+
+}
+
+.link_contacts {
+
+}
+
+.intro {
+    grid-area: intro;
+    padding: 10px;
+}
+
+.my_name {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.content {
+    grid-area: my_work;
+}
+
+.contacts {
+    grid-area: info;
 }
