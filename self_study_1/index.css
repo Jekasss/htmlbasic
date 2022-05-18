@@ -15,12 +15,15 @@ a {
     text-decoration: none;
 }
 
-a:link {
-	color: red;
+a:link, a:visited {
+	color: lightgray;
 }
-a:visited {
-	color: red;
+
+a:hover {
+	color: darkgray;
 }
+
+
 
 .page_navi {
     display: flex;
@@ -52,6 +55,8 @@ a:visited {
 }
 
 .intro {
+    display: flex;
+    flex-direction: row;
     grid-area: intro;
     padding: 10px;
 }
@@ -61,6 +66,9 @@ a:visited {
     font-weight: bolder;
 }
 
+.my_age {
+    
+}
 .content {
     grid-area: my_work;
 }
