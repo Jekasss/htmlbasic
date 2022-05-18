@@ -30,7 +30,6 @@ a:hover {
     grid-area: navigation;
     justify-content: space-between;
     padding-top: 15px;
-    padding-bottom: 30px;
     border-bottom: 2px solid gray;
 }
 
@@ -54,23 +53,65 @@ a:hover {
 
 }
 
+.main_page {
+    margin-bottom: 80px;
+}
+
 .intro {
     display: flex;
-    flex-direction: row;
     grid-area: intro;
+    height: max-content;
     padding: 10px;
+    justify-content: space-between;
 }
 
 .my_name {
-    font-size: 50px;
-    font-weight: bolder;
+    
 }
 
 .my_age {
-    
+    padding-top: 60px;
+}
+
+.language {
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    padding-top: 15px;
+}
+
+.main_photo {
+    width: 100%;
 }
 .content {
     grid-area: my_work;
+}
+
+.about_me {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.page_titles {
+
+}
+
+.biography {
+
+}
+
+.skils {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.page_titles {
+
+}
+
+.programs {
+
 }
 
 .contacts {
