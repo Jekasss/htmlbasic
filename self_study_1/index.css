@@ -93,7 +93,7 @@ a:hover {
 }
 
 .page_titles {
-
+    text-align: center;
 }
 
 .biography {
@@ -114,6 +114,26 @@ a:hover {
 
 }
 
+.prog_rank {
+    margin: auto;
+    padding: 80px;
+}
+
 .contacts {
     grid-area: info;
 }
+
+#lines {
+    border-bottom: 12px double lightgray;
+    border-top: 4px solid lightgray;
+    
+    height: 4px;
+    width: 30px;
+    box-sizing: unset;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  #lines:hover {
+    border-color: darkgrey;
+  }
