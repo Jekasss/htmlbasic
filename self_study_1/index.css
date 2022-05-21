@@ -16,11 +16,11 @@ a {
 }
 
 a:link, a:visited {
-	color: lightgray;
+	color: rgb(139, 139, 139);
 }
 
 a:hover {
-	color: darkgray;
+	color: rgb(66, 66, 66);
 }
 
 
@@ -107,7 +107,7 @@ a:hover {
 }
 
 .page_titles {
-
+    font-size: 40px;
 }
 
 .programs {
@@ -119,21 +119,82 @@ a:hover {
     padding: 80px;
 }
 
-.contacts {
-    grid-area: info;
+.portfolio {
+
 }
 
-#lines {
+.folio {
+    display: flex;
+    padding-top: 70px;
+}
+
+.column_1 {
+    width: 38%;
+    font-weight: 700;
+}
+
+.menu {
     border-bottom: 12px double lightgray;
     border-top: 4px solid lightgray;
-    
     height: 4px;
     width: 30px;
     box-sizing: unset;
     display: inline-block;
     vertical-align: middle;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
-  #lines:hover {
+  .menu:hover {
     border-color: darkgrey;
   }
+
+.woman_man {
+    font-size: 60px;
+    text-align: left;
+    transform: scaleX(0.6)
+}
+.column_2 {
+    width: 31%;
+}
+
+.new_collection {
+    width: 100%;
+}
+
+.column_3 {
+    width: 31%;
+    padding-left: 35px;
+    font-weight: 700;
+}
+
+.search {
+    padding-top: 90px;
+    margin-bottom: 120px;
+    text-align: right;
+}
+
+.levis {
+
+}
+
+.composition {
+    font-weight: 100;
+    font-size: 10px;
+    width: 96px;
+}
+
+.next_page {
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+.massengers {
+    display: flex;
+    justify-content: space-between;
+}
+
+  .contacts {
+    grid-area: info;
+}
