@@ -193,6 +193,119 @@ a:hover {
 .massengers {
     display: flex;
     justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: xx-small;
+}
+
+.fasion_store {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: x-large;
+}
+
+.store_link {
+    
+}
+
+.store_link:link, .store_link:visited {
+    color: rgb(66, 66, 66);
+}
+
+.reebok {
+    display: flex;
+    height: max-content;
+}
+
+.main_block {
+    width: 50%;
+}
+
+.reebok_logo {
+    display: flex;
+    width: 130%;
+    justify-content: space-between;
+}
+
+.reebok_logo_pic {
+    width: 100px;
+}
+
+.running {
+    
+}
+
+.style {
+
+}
+
+.crossfit {
+
+}
+
+.reebok_title {
+    width: 300px;
+    padding-top: 200px;
+}
+
+.niger_jumper {
+    width: 35%;
+}
+
+.reebok_links {
+    width: 15%;
+}
+
+.shop {
+    background-color: rgb(93, 85, 168);
+    height: 50%;
+    text-align: center;
+    
+}
+
+.shop_link {
+    color: white;
+}
+
+.shop_link:hover, .shop_link:link, .shop_link:visited {
+ color: white;
+}
+
+.reebok_messangers {
+    text-align: center;
+    background-color: rgb(248, 72, 72);
+    height: 50%;
+    width: 100%;
+
+}
+
+.reebok_fb {
+    color: white;
+    padding-top: 100px;    
+}
+
+.reebok_fb_link:hover, .reebok_fb_link:visited, .reebok_fb_link:link {
+    color: white;
+}
+
+.reebok_inst {
+    color: white;
+    padding-top: 30px;
+    
+}
+
+.reebok_inst_link:hover, .reebok_inst_link:visited, .reebok_inst_link:link {
+    color: white;
+}
+
+.reebok_vk {
+    color: white;
+    padding-top: 30px;
+}
+
+.reebok_vk_link:hover, .reebok_vk_link:visited, .reebok_vk_link:link {
+    color: white;
 }
 
   .contacts {
