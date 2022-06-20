@@ -192,7 +192,7 @@ a:hover {
 
 .massengers {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: xx-small;
@@ -306,6 +306,51 @@ a:hover {
 
 .reebok_vk_link:hover, .reebok_vk_link:visited, .reebok_vk_link:link {
     color: white;
+}
+
+.reebok_store {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: x-large;
+}
+
+.braun {
+
+}
+
+.braun_navi {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.braun_menu {
+
+}
+
+.braun_logo {
+    height: 20px;
+}
+
+.braun_shop {
+
+}
+
+.braun_camera {
+    display: flex;
+}
+
+.camera_t52 {
+    width: 35%;
+    font-size: 30px;
+    word-spacing: 9999px;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.photo_t52 {
+    width: 65%;
 }
 
   .contacts {
