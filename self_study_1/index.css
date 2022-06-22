@@ -23,8 +23,6 @@ a:hover {
 	color: rgb(66, 66, 66);
 }
 
-
-
 .page_navi {
     display: flex;
     grid-area: navigation;
@@ -33,40 +31,16 @@ a:hover {
     border-bottom: 2px solid gray;
 }
 
-.link_home {
-
-}
-
-.link_about_me {
-
-}
-
-.link_skils {
-
-}
-
-.link_portfolio {
-
-}
-
-.link_contacts {
-
-}
-
 .main_page {
     margin-bottom: 80px;
+    grid-area: intro;
 }
 
 .intro {
     display: flex;
-    grid-area: intro;
     height: max-content;
     padding: 10px;
     justify-content: space-between;
-}
-
-.my_name {
-    
 }
 
 .my_age {
@@ -96,10 +70,6 @@ a:hover {
     text-align: center;
 }
 
-.biography {
-
-}
-
 .skils {
     text-align: center;
     padding-top: 60px;
@@ -110,17 +80,9 @@ a:hover {
     font-size: 40px;
 }
 
-.programs {
-
-}
-
 .prog_rank {
     margin: auto;
     padding: 80px;
-}
-
-.portfolio {
-
 }
 
 .folio {
@@ -174,10 +136,6 @@ a:hover {
     text-align: right;
 }
 
-.levis {
-
-}
-
 .composition {
     font-weight: 100;
     font-size: 10px;
@@ -205,10 +163,6 @@ a:hover {
     font-size: x-large;
 }
 
-.store_link {
-    
-}
-
 .store_link:link, .store_link:visited {
     color: rgb(66, 66, 66);
 }
@@ -230,18 +184,6 @@ a:hover {
 
 .reebok_logo_pic {
     width: 100px;
-}
-
-.running {
-    
-}
-
-.style {
-
-}
-
-.crossfit {
-
 }
 
 .reebok_title {
@@ -315,26 +257,14 @@ a:hover {
     font-size: x-large;
 }
 
-.braun {
-
-}
-
 .braun_navi {
     display: flex;
     justify-content: space-around;
     height: 60px;
 }
 
-.braun_menu {
-
-}
-
 .braun_logo {
     height: 20px;
-}
-
-.braun_shop {
-
 }
 
 .braun_camera {
@@ -353,6 +283,49 @@ a:hover {
     width: 65%;
 }
 
-  .contacts {
+  .information {
     grid-area: info;
+    display: block;
+    text-align: center;
+}
+
+.contacts {
+    display: flex;
+    font-size: 30px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.question {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    margin-left: 45%;
+    margin-right: 45%;
+    font-size: 12px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+
+.social_network {
+    padding-top: 50px;
+}
+
+.like_me_on {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 10px;
+    color: darkgray;
 }
